@@ -4,6 +4,8 @@ public abstract class Duck {
     QuackableInterface quackBehavior;
     FlyableInterface flyBehavior;
 
+    public abstract void display();
+
     public void swim(){
         System.out.println("all duck can swim");
     }
@@ -16,9 +18,17 @@ public abstract class Duck {
         this.flyBehavior = flyBehavior;
     }
 
-    public void behaviour(){
+    public void performQuack(){
         quackBehavior.quack();
+    }
+
+    public void performFly(){
         flyBehavior.fly();
+    }
+
+    public void behaviour(){
+        performFly();
+        performQuack();
     }
 
 }
