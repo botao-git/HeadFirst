@@ -59,3 +59,15 @@ class WeatherData{
 DisplayElement为布告板提供了统一的接口,当布告板板需要显示信息是调用此接口的display() 方法
 
 [WeatherData](./src/test/java/org/potter/observer/WeatherStation.java) 是整个气象站的载体，用于启动气象站运转
+
+总结：
+
+面向对象设置原则：
+1. 封装变化
+2. 多用组合，少用继承
+3. 针对接口编程，不针对实现编程
+4. <u>为交互对象之间的松耦合设计而努力</u>
+
+观察者模式：
+
+    在对象之间定义一对多的依赖，这样一来，当一个对象改变状态，依赖的对象都会收到通知，并自动更新。
