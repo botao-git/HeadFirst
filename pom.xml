@@ -9,6 +9,7 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>HeadFirst</name>
+
     <modules>
         <module>1.StrategyPattern</module>
         <module>2.ObserverPattern</module>
