@@ -28,11 +28,11 @@ under the License.
 	</parent>
 
 	<groupId>org.potter</groupId>
-	<artifactId>observer</artifactId>
+	<artifactId>decorator</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
 
-	<name>2.ObserverPattern</name>
+	<name>3.DecoratorPattern</name>
 	<url>http://www.potter.org</url>
 
 	<properties>

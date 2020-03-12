@@ -13,6 +13,7 @@
     <modules>
         <module>1.StrategyPattern</module>
         <module>2.ObserverPattern</module>
+        <module>3.DecoratorPattern</module>
     </modules>
     <dependencies>
         <dependency>
